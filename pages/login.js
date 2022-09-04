@@ -72,25 +72,25 @@ function LoginPage() {
       <div style={{ backgroundColor: "#252525" }}>
         <div className="container-fluid">
           <div className="row">
-            <div className="col" style={{ marginTop: 61, marginLeft: 72 }}>
+            <div className="col" style={{ marginTop: 0, marginLeft: 0 }}>
               <Link href={"/"}>
-                <h3
+                <h4
                   style={{
                     color: "#FBBC05",
                     fontWeight: "bold",
                     fontSize: "36px",
+                    textAlign: "center"
                   }}
                 >
                   Traditional Game
-                </h3>
+                </h4>
               </Link>
               <div
                 className="mx-auto"
                 style={{
                   width: 420,
                   height: 579,
-                  padding: 40,
-                  paddingTop: 111,
+                  padding: 40,                  
                 }}
               >
                 <div className="d-flex justify-content-between align-items-center">
@@ -101,10 +101,10 @@ function LoginPage() {
                       fontWeight: 400,
                     }}
                   >
-                    Masuk
+                    Login
                   </p>
                   <Link href={"/register"}>
-                    <p style={{ fontSize: 16, color: "#FBBC05" }}>Daftar</p>
+                    <p style={{ fontSize: 16, color: "#FBBC05" }}>Register</p>
                   </Link>
                 </div>
                 <div>
@@ -149,7 +149,7 @@ function LoginPage() {
                       <button
                         className="w-100"
                         style={{
-                          marginTop: "36px",
+                          marginTop: "15px",
                           height: "46px",
                           background: "#F2C94C",
                           borderRadius: "8px",
@@ -159,7 +159,7 @@ function LoginPage() {
                         }}
                         type="submit"
                       >
-                        MASUK
+                        LOGIN
                       </button>
                     )}
                   </form>
@@ -190,8 +190,7 @@ function LoginPage() {
                   <p
                     style={{
                       fontSize: "14px",
-                      color: "#D0D0D0",
-                      marginTop: "3px",
+                      color: "#D0D0D0",                    
                     }}
                   >
                     atau masuk dengan
@@ -206,7 +205,7 @@ function LoginPage() {
                     }}
                   />
                 </div>
-                <div style={{ marginTop: "36px" }}>
+                <div style={{ marginTop: "15px" }}>
                   <button
                     className="w-100"
                     style={{
@@ -243,9 +242,7 @@ function LoginPage() {
                 </div>
               </div>
             </div>
-            <div className="col" style={{ margin: "24px" }}>
-              <img src="../../../assets/img-login.svg" alt="" />
-            </div>
+          
           </div>
         </div>
       </div>

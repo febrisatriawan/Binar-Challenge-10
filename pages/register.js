@@ -36,25 +36,25 @@ const RegisterPage = () => {
       <div style={{ backgroundColor: "#252525" }}>
         <div className="container-fluid">
           <div className="row">
-            <div className="col" style={{ marginTop: 61, marginLeft: 72 }}>
+            <div className="col" style={{ marginTop: 0, marginLeft: 0 }}>
               <Link href={"/"}>
-                <h3
+                <h4
                   style={{
                     color: "#FBBC05",
                     fontWeight: "bold",
                     fontSize: "36px",
+                    textAlign: "center"
                   }}
                 >
                   Traditional Game
-                </h3>
+                </h4>
               </Link>
               <div
                 className="mx-auto"
                 style={{
                   width: 420,
                   height: 579,
-                  padding: 40,
-                  paddingTop: 111,
+                  padding: 40,                  
                 }}
               >
                 <div className="d-flex justify-content-between align-items-center">
@@ -65,10 +65,10 @@ const RegisterPage = () => {
                       fontWeight: 400,
                     }}
                   >
-                    Daftar
+                    Register
                   </p>
                   <Link href={"/login"}>
-                    <p style={{ fontSize: 16, color: "#FBBC05" }}>Masuk</p>
+                    <p style={{ fontSize: 16, color: "#FBBC05" }}>Login</p>
                   </Link>
                 </div>
                 <div>
@@ -129,7 +129,7 @@ const RegisterPage = () => {
                       <button
                         className="w-100"
                         style={{
-                          marginTop: "36px",
+                          marginTop: "15px",
                           height: "46px",
                           background: "#F2C94C",
                           borderRadius: "8px",
@@ -146,7 +146,7 @@ const RegisterPage = () => {
                 </div>
                 <p
                   style={{
-                    marginTop: "33px",
+                    marginTop: "15px",
                     fontWeight: "400",
                     fontSize: "14px",
                     color: "#FFFFFF",
@@ -165,9 +165,7 @@ const RegisterPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col" style={{ margin: "24px" }}>
-              <img src="../../../assets/img-login.svg" alt="" />
-            </div>
+            
           </div>
         </div>
       </div>

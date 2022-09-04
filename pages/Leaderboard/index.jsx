@@ -39,7 +39,7 @@ function Game() {
       <Navbar />
      
       <div className="container">
-        <h1 className="text-center">Leaderboard Game</h1>
+        <h1 className="text-center">Leaderboard</h1>
         <Table striped bordered hover>
           <thead>
             <tr>
