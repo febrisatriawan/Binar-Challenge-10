@@ -18,9 +18,9 @@ export default function Home() {
           <div className="col-lg-6 mx-auto">
             <h2 className="lead mb-4">Please Login For Play The Game</h2>
             <div className="py-5 d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <Link href="/login">
+              <Link href="/Game">
                 <button type="button" className="btn btn-outline-warning btn-lg px-4">
-                  Login
+                  Play Now
                 </button>
               </Link>
             </div>

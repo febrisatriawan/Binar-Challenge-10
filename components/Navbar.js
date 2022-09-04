@@ -30,7 +30,7 @@ const NavbarComponent = () => {
             <Link href={"/Game"} passHref>
               <Nav.Link>List Game</Nav.Link>
             </Link>
-            <Link href={"/"} passHref>
+            <Link href={"/Leaderboard"} passHref>
               <Nav.Link>Leaderboard</Nav.Link>
             </Link>
           </Nav>

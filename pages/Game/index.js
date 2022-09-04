@@ -77,6 +77,26 @@ const ListGame = () => {
             <Button onClick={(event) => submitToSuwit(event)}>Play Now!</Button>
           </Card.Body>
         </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Image variant="top" src={scissors} width={250} height={200} />
+          <Card.Body>
+            <Card.Title>Dadu Game</Card.Title>
+            <Card.Text>Uji keberuntungan mu dengan memainkan game ini dan jadilah juaranya!!</Card.Text>
+            <p>{playedGames.includes("suwit") ? "Game has been played" : null}</p>
+            <Button onClick={(event) => submitToSuwit(event)}>Play Now!</Button>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Image variant="top" src={scissors} width={250} height={200} />
+          <Card.Body>
+            <Card.Title>Remi Game</Card.Title>
+            <Card.Text>Uji keberuntungan mu dengan memainkan game ini dan jadilah juaranya!!</Card.Text>
+            <p>{playedGames.includes("suwit") ? "Game has been played" : null}</p>
+            <Button onClick={(event) => submitToSuwit(event)}>Play Now!</Button>
+          </Card.Body>
+        </Card>
       </div>
     </Authenticated>
   );

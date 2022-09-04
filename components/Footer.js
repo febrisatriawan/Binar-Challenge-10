@@ -17,7 +17,7 @@ const Footer = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href={"/Game"} passHref>
+            <Link href={"/Leaderboard"} passHref>
               <a className="nav-link px-2 text-muted">Leaderboard</a>
             </Link>
           </li>

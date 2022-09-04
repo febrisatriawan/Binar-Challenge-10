@@ -45,7 +45,7 @@ const RegisterPage = () => {
                     fontSize: "36px",
                   }}
                 >
-                  Gemology
+                  Traditional Game
                 </h3>
               </Link>
               <div
@@ -67,6 +67,9 @@ const RegisterPage = () => {
                   >
                     Daftar
                   </p>
+                  <Link href={"/login"}>
+                    <p style={{ fontSize: 16, color: "#FBBC05" }}>Masuk</p>
+                  </Link>
                 </div>
                 <div>
                   <form onSubmit={onRegisterClick}>

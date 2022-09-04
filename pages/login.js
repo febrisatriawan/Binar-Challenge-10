@@ -81,7 +81,7 @@ function LoginPage() {
                     fontSize: "36px",
                   }}
                 >
-                  Gemology
+                  Traditional Game
                 </h3>
               </Link>
               <div

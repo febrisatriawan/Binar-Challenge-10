@@ -106,29 +106,7 @@ function Game() {
           Submit Score
         </Button>
       </div>
-      <div className="container">
-        <h1 className="text-center">Leaderboard Game</h1>
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Score</th>
-            </tr>
-          </thead>
-          <tbody>
-            {players.map((item, index) => (
-              <tr>
-                <td>{index + 1}</td>
-                <td>{item.displayName}</td>
-                <td>{item.email}</td>
-                <td>{item.score}</td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      </div>
+     
     </Authenticated>
   );
 }
